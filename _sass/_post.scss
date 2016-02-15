@@ -20,3 +20,7 @@
 .post__figure img {
     max-height: 10 * $base-spacing-unit;
 }
+
+.post__excerpt p {
+    display: inline;
+}

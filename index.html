@@ -14,9 +14,10 @@ layout: default
                 <img src="{{ site.baseurl }}/img/posts/{{ post.img }}" alt="{{ post.img }}">
             </a>
         </figure>
-        <p>
+        <div class="post__excerpt">
             {{ post.excerpt }}
-        </p>
+            <a href="{{ post.url | prepend: site.baseurl }}">read more…</a>
+        </div>
     </article>
     {% endfor %}
 
