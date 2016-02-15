@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Lunch is the Perfect Opportunity to Network Inside your Company"
-date:   2016-02-15 08:00
+date:   2016-02-15 08:00+01:00
 img: "network.svg"
 categories:
 ---
