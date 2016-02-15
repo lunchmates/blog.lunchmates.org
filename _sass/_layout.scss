@@ -9,8 +9,8 @@
     }
 
     a {
-        margin-left: $base-spacing-unit;    
-        display: inline-block;  
+        margin-left: $base-spacing-unit;
+        display: inline-block;
     }
 }
 
@@ -40,8 +40,9 @@
     line-height: 1;
     margin-bottom: -1*$base-ui-radius;
 
-    a, a:hover {    
+    a, a:hover {
         @extend %brand-logo;
+        text-decoration: none;
         padding: $base-spacing-unit;
         margin-left: -1*$base-spacing-unit;
         border-radius: 0 0 $base-ui-radius $base-ui-radius;
@@ -58,6 +59,7 @@
         padding: 1.25*$base-spacing-unit 0 0.75*$base-spacing-unit;
         font-weight: bold;
         color: lighten($text-color, 15%);
+        text-decoration: none;
 
         &:hover {
             color: $brand-color;
@@ -90,6 +92,7 @@
 
     a {
         color: lighten($text-color, 10%);
+        text-decoration: none;
 
         &:hover {
             color: darken($text-color, 10%);

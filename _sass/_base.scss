@@ -78,7 +78,7 @@ li {
  */
 a {
 	color: $brand-color;
-	text-decoration: none;
+	text-decoration: underline;
 
 	&:hover {
 		color: darken($brand-color, 15%);

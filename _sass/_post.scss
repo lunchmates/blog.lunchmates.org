@@ -11,6 +11,10 @@
 
 .post__title {
     color: $brand-color;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .post__figure img {
