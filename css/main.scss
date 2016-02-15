@@ -12,9 +12,9 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $base-spacing-unit: 24px;
-$base-ui-radius:   4px;
+$base-ui-radius:    4px;
 
-$max-page-width:        960px;
+$max-page-width:   960px;
 
 $text-color:       #555;
 $background-color: #fff;
@@ -50,5 +50,6 @@ $on-laptop:        800px;
         "base",
         "typography",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "post"
 ;

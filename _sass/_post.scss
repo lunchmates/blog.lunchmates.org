@@ -1,0 +1,18 @@
+.post {
+    margin-bottom: 2*$base-spacing-unit;
+}
+
+.post__title,
+.post__time,
+.post__figure {
+    display: block;
+    text-align: center;
+}
+
+.post__title {
+    color: $brand-color;
+}
+
+.post__figure img {
+    max-height: 10 * $base-spacing-unit;
+}
