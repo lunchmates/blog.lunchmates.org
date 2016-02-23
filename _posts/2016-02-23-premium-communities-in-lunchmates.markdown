@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Premium Communities are here"
-date: 2016-02-20 09:00+01:00
+date: 2016-02-23 09:00+01:00
 img: "macbook-phone.png"
 categories:
 ---
